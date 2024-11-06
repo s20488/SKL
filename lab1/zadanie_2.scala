@@ -55,7 +55,7 @@ class C(val re: Double, val im: Double) extends Ordered[C] {
   def !=(that: C): Boolean = !this.equals(that)
 }
 
-object zadanie_2 extends App {
+object ComplexNumbers extends App {
   val c1 = new C(2.1, 3.5)
   val c2 = new C(2.2, 3.4)
 

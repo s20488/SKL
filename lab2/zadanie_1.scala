@@ -10,6 +10,6 @@ object StringReverser {
 }
 
 @main
-def mainPrint(): Unit = {
+def mainStringReverse(): Unit = {
   println(StringReverser.reverse("kot"))
 }
