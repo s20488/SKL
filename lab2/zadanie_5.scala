@@ -13,6 +13,6 @@ object ArrayOrderChecker {
 @main
 def mainArrayOrderChecker(): Unit = {
   val tab1 = Array(1, 3, 3, 6, 8)
-  println(ArrayOrderChecker.isOrdered(tab1, _ <= _)) //true
-  println(ArrayOrderChecker.isOrdered(tab1, _ < _)) //false
+  println(ArrayOrderChecker.isOrdered(tab1, _ <= _)) // true
+  println(ArrayOrderChecker.isOrdered(tab1, _ < _)) // false
 }
