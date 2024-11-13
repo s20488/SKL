@@ -17,5 +17,6 @@ def mainSubListChecker(): Unit = {
   val l = List('b', 'o', 'c', 'i', 'a', 'n')
   val lSub = List('a', 'b', 'c')
   val result = SubListChecker.isSub(l, lSub)
+
   println(result) // Result: True
 }

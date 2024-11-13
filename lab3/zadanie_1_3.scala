@@ -8,7 +8,7 @@ object Divider {
         else loop(xs, evens, x :: odds, !isEven)
     }
 
-    loop(list, Nil, Nil, isEven = true)
+    loop(list, List.empty, List.empty, isEven = true)
   }
 }
 
