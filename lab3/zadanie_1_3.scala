@@ -17,6 +17,6 @@ def mainDivider(): Unit = {
   val list = List(1, 3, 5, 6, 7)
   val result = Divider.divide(list)
 
-  println(s"Input list: $list")
-  println(s"Result: $result")
+  println(s"Input list: ${list.mkString("[", ", ", "]")}")
+  println(s"Result: ${result._1.mkString("[", ", ", "]")}, ${result._2.mkString("[", ", ", "]")}")
 }
