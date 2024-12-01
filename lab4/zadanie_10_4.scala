@@ -1,12 +1,12 @@
 object PythagoreanTriples {
 
   def threeNumbers(n: Int): Set[(Int, Int, Int)] = {
-    for {
+    (for {
       a <- 1 to n
       b <- a + 1 to n
       c <- b + 1 to n
       if a * a + b * b == c * c
-    } yield (a, b, c)
+    } yield (a, b, c)).toSet
   }
 }
 
